@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    background-color: #0000FF;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-flex;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    display: flex;
+    padding: 0.8125rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #0000FF;
+    text-decoration: underline;
+    font-weight: bolder;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -moz-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -ms-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -o-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+li ul {
+    position: absolute;
+    left: 0;
+    top: 2.75rem;
+    min-width: 10.525rem;
+    display: none;
+}
+
+li ul li {
+    display: block;
+}
+
+li ul li a {
+    padding: 0.8125rem;
+    min-width: 5.1875rem;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li {
+    float: left;
+}
+
+* html ul li a {
+    height: 1%;
+}
+
+/* End */
+
+li:hover ul {
+    display: block;
+}
+
+li ul li a:hover {
+    background-color: #A6D7FC;
+}

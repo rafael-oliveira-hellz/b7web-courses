@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #0000FF;
+    margin-top: -16px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 0;
+    padding: 0.8125rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F0F8FF;
+    padding: 1rem;
+}
+
+nav ul li:hover {
+    background-color: #F0F8FF;
+}
+
+nav ul li a:hover {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bolder;
+}

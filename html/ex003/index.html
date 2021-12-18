@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Intermediária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <table style="width:50vw">
+
+        <thead>
+            <tr class="title">
+                <th rowspan="3">Day</th>
+                <th colspan="6">Seminar</th>
+            </tr>
+
+            <tr class="title">
+                <th colspan="2">Schedule</th>
+                <th colspan="2" rowspan="2">Topic</th>
+            </tr>
+
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" class="morning">8:00 a.m.</td>
+                <td rowspan="2" class="evening">5:00 p.m.</td>
+                <td>INTRODUCTION TO XML</td>
+            </tr>
+
+            <tr>
+                <td>VALIDITY: DTD AND RELAX NG</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td class="morning">8:00 a.m.</td>
+                <td class="morning">11:00 p.m.</td>
+                <td rowspan="1">XPATH</td>
+            </tr>
+
+            <tr>
+                <td class="morning">11:00 a.m.</td>
+                <td class="afternoon">2:00 p.m.</td>
+                <td rowspan="2">XLS TRANSFORMATIONS</td>
+            </tr>
+
+            <tr>
+                <td class="afternoon">2:00 p.m.</td>
+                <td class="evening">5:00 p.m.</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td class="morning">8:00 a.m.</td>
+                <td class="afternoon">12:00 p.m.</td>
+                <td rowspan="1">XSL FORMATTING OBJECTS</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

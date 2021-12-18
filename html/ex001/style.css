@@ -1,0 +1,25 @@
+.header {
+    background-color: #0000FF;
+}
+
+.header > p {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+.header span {
+    color: #FFFFFF;
+}
+
+.header + div {
+    background-color: #FF0000;
+}
+
+div > span {
+    font-size: 1.5rem;
+}
+
+div > strong {
+    color: #00FF00;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,28 @@
+table {
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+
+.title > th {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+tr > td {
+    font-size: 1.3rem;
+}
+
+th:hover, td:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}

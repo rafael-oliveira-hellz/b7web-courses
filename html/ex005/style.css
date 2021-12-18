@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer > div {
+    position: fixed;
+    bottom: 0;
+    min-width: 100vw;
+    width: 100%;
+    background-color: aqua;
+    padding: 1.25rem;
+}
